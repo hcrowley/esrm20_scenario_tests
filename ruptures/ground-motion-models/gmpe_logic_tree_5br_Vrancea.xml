@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<nrml
+xmlns="http://openquake.org/xmlns/nrml/0.5"
+xmlns:gml="http://www.opengis.net/gml"
+>
+    <logicTree
+    logicTreeID="ESHM20 Logic Tree - 5 Stress Branch"
+    >
+        <logicTreeBranchSet
+        applyToTectonicRegionType="Non-Subduction Deep"
+        branchSetID="BCHydroSubVrancea"
+        uncertaintyType="gmpeModel"
+        >
+            <logicTreeBranch
+            branchID="VranceaVLowStressFastAtt"
+            >
+                <uncertaintyModel>
+                    [BCHydroESHM20SSlab]
+theta_6_adjustment = -0.001500
+sigma_mu_epsilon = -2.856970
+faba_taper_model = "SFunc"
+a = -100.00
+b = 100.00
+                </uncertaintyModel>
+                <uncertaintyWeight>
+                    0.0022520000
+                </uncertaintyWeight>
+            </logicTreeBranch>
+            <logicTreeBranch
+            branchID="VranceaVLowStressCentralAtt"
+            >
+                <uncertaintyModel>
+                    [BCHydroESHM20SSlab]
+sigma_mu_epsilon = -2.856970
+faba_taper_model = "SFunc"
+a = -100.00
+b = 100.00
+                </uncertaintyModel>
+                <uncertaintyWeight>
+                    0.0067560000
+                </uncertaintyWeight>
+            </logicTreeBranch>
+            <logicTreeBranch
+            branchID="VranceaVLowStressSlowAtt"
+            >
+                <uncertaintyModel>
+                    [BCHydroESHM20SSlab]
+theta_6_adjustment = 0.001500
+sigma_mu_epsilon = -2.856970
+faba_taper_model = "SFunc"
+a = -100.00
+b = 100.00
+                </uncertaintyModel>
+                <uncertaintyWeight>
+                    0.0022520000
+                </uncertaintyWeight>
+            </logicTreeBranch>
+            <logicTreeBranch
+            branchID="VranceaLowStressFastAtt"
+            >
+                <uncertaintyModel>
+                    [BCHydroESHM20SSlab]
+theta_6_adjustment = -0.001500
+sigma_mu_epsilon = -1.355630
+faba_taper_model = "SFunc"
+a = -100.00
+b = 100.00
+                </uncertaintyModel>
+                <uncertaintyWeight>
+                    0.0444160000
+                </uncertaintyWeight>
+            </logicTreeBranch>
+            <logicTreeBranch
+            branchID="VranceaLowStressCentralAtt"
+            >
+                <uncertaintyModel>
+                    [BCHydroESHM20SSlab]
+sigma_mu_epsilon = -1.355630
+faba_taper_model = "SFunc"
+a = -100.00
+b = 100.00
+                </uncertaintyModel>
+                <uncertaintyWeight>
+                    0.1332480000
+                </uncertaintyWeight>
+            </logicTreeBranch>
+            <logicTreeBranch
+            branchID="VranceaLowStressSlowAtt"
+            >
+                <uncertaintyModel>
+                    [BCHydroESHM20SSlab]
+theta_6_adjustment = 0.001500
+sigma_mu_epsilon = -1.355630
+faba_taper_model = "SFunc"
+a = -100.00
+b = 100.00
+                </uncertaintyModel>
+                <uncertaintyWeight>
+                    0.0444160000
+                </uncertaintyWeight>
+            </logicTreeBranch>
+            <logicTreeBranch
+            branchID="VranceaMidStressFastAtt"
+            >
+                <uncertaintyModel>
+                    [BCHydroESHM20SSlab]
+theta_6_adjustment = -0.001500
+faba_taper_model = "SFunc"
+a = -100.00
+b = 100.00
+                </uncertaintyModel>
+                <uncertaintyWeight>
+                    0.1066640000
+                </uncertaintyWeight>
+            </logicTreeBranch>
+            <logicTreeBranch
+            branchID="VranceaMidStressCentralAtt"
+            >
+                <uncertaintyModel>
+                    [BCHydroESHM20SSlab]
+faba_taper_model = "SFunc"
+a = -100.00
+b = 100.00
+                </uncertaintyModel>
+                <uncertaintyWeight>
+                    0.3199920000
+                </uncertaintyWeight>
+            </logicTreeBranch>
+            <logicTreeBranch
+            branchID="VranceaMidStressSlowAtt"
+            >
+                <uncertaintyModel>
+                    [BCHydroESHM20SSlab]
+theta_6_adjustment = 0.001500
+faba_taper_model = "SFunc"
+a = -100.00
+b = 100.00
+                </uncertaintyModel>
+                <uncertaintyWeight>
+                    0.1066640000
+                </uncertaintyWeight>
+            </logicTreeBranch>
+            <logicTreeBranch
+            branchID="VranceaHighStressFastAtt"
+            >
+                <uncertaintyModel>
+                    [BCHydroESHM20SSlab]
+theta_6_adjustment = -0.001500
+sigma_mu_epsilon = 1.355630
+faba_taper_model = "SFunc"
+a = -100.00
+b = 100.00
+                </uncertaintyModel>
+                <uncertaintyWeight>
+                    0.0444160000
+                </uncertaintyWeight>
+            </logicTreeBranch>
+            <logicTreeBranch
+            branchID="VranceaHighStressCentralAtt"
+            >
+                <uncertaintyModel>
+                    [BCHydroESHM20SSlab]
+sigma_mu_epsilon = 1.355630
+faba_taper_model = "SFunc"
+a = -100.00
+b = 100.00
+                </uncertaintyModel>
+                <uncertaintyWeight>
+                    0.1332480000
+                </uncertaintyWeight>
+            </logicTreeBranch>
+            <logicTreeBranch
+            branchID="VranceaHighStressSlowAtt"
+            >
+                <uncertaintyModel>
+                    [BCHydroESHM20SSlab]
+theta_6_adjustment = 0.001500
+sigma_mu_epsilon = 1.355630
+faba_taper_model = "SFunc"
+a = -100.00
+b = 100.00
+                </uncertaintyModel>
+                <uncertaintyWeight>
+                    0.0444160000
+                </uncertaintyWeight>
+            </logicTreeBranch>
+            <logicTreeBranch
+            branchID="VranceaVHighStressFastAtt"
+            >
+                <uncertaintyModel>
+                    [BCHydroESHM20SSlab]
+theta_6_adjustment = -0.001500
+sigma_mu_epsilon = 2.856970
+faba_taper_model = "SFunc"
+a = -100.00
+b = 100.00
+                </uncertaintyModel>
+                <uncertaintyWeight>
+                    0.0022520000
+                </uncertaintyWeight>
+            </logicTreeBranch>
+            <logicTreeBranch
+            branchID="VranceaVHighStressCentralAtt"
+            >
+                <uncertaintyModel>
+                    [BCHydroESHM20SSlab]
+sigma_mu_epsilon = 2.856970
+faba_taper_model = "SFunc"
+a = -100.00
+b = 100.00
+                </uncertaintyModel>
+                <uncertaintyWeight>
+                    0.0067560000
+                </uncertaintyWeight>
+            </logicTreeBranch>
+            <logicTreeBranch
+            branchID="VranceaVHighStressSlowAtt"
+            >
+                <uncertaintyModel>
+                    [BCHydroESHM20SSlab]
+theta_6_adjustment = 0.001500
+sigma_mu_epsilon = 2.856970
+faba_taper_model = "SFunc"
+a = -100.00
+b = 100.00
+                </uncertaintyModel>
+                <uncertaintyWeight>
+                    0.0022520000
+                </uncertaintyWeight>
+            </logicTreeBranch>
+        </logicTreeBranchSet>
+    </logicTree>
+</nrml>
