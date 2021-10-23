@@ -3,7 +3,7 @@
 """
 Created on Wed Apr 22 23:01:39 2020
 
-Batch run scenario risk calculations
+Batch run shakemap prep calculations
 
 @author: helencrowley
 """
