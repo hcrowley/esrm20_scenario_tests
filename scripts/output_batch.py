@@ -13,8 +13,8 @@ import subprocess as sp
 
 
 #%%
-start_id = 3972#manually input by user
-for i in range(0,49):
+start_id = 4020#manually input by user
+for i in range(0,1):
      
     lrc = sp.getoutput('../../../../../openquake/oqenv/bin/oq engine --lrc')
 
