@@ -4,7 +4,7 @@
 Created on Wed Apr 22 23:01:39 2020
 
 Batch run shakemap risk calculations (economic loss)
-
+After running 'run_shakemap_prep.py' for economic losses, record the hazard calculation numbers for each country and replace here
 @author: helencrowley
 """
 

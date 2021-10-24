@@ -13,8 +13,8 @@ import subprocess as sp
 
 
 #%%
-start_id = 3968#manually input by user
-for i in range(0,1):
+start_id = 3972#manually input by user
+for i in range(0,49):
      
     lrc = sp.getoutput('../../../../../openquake/oqenv/bin/oq engine --lrc')
 
@@ -34,8 +34,8 @@ for i in range(0,1):
     for line in output.splitlines():
         if 'Risk By Event' in line:
             out_id = line[0:5]
-            os.system('../../../../../openquake/oqenv/bin/oq engine --export-output {} ../shakemaps/outputs/economic'.format(out_id))
-            os.rename('../shakemaps/outputs/economic/risk_by_event_{}.csv'.format(start_id+i),'../shakemaps/outputs/economic/risk_by_event_{}.csv'.format(text))
+            os.system('../../../../../openquake/oqenv/bin/oq engine --export-output {} ../shakemaps/outputs/fatalities'.format(out_id))
+            os.rename('../shakemaps/outputs/fatalities/risk_by_event_{}.csv'.format(start_id+i),'../shakemaps/outputs/fatalities/risk_by_event_{}.csv'.format(text))
 
 
             

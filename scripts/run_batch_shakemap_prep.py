@@ -4,7 +4,7 @@
 Created on Wed Apr 22 23:01:39 2020
 
 Batch run shakemap prep calculations
-
+Run this script before running the ShakeMap scenario losses, store the resulting hazard calculation numbers
 @author: helencrowley
 """
 

@@ -4,7 +4,7 @@
 Created on Wed Apr 22 23:01:39 2020
 
 Batch run shakemap risk calculations (fatalities)
-
+After running 'run_shakemap_prep.py' for fatalities, record the hazard calculation numbers for each country and time and replace here
 @author: helencrowley
 """
 
@@ -17,7 +17,6 @@ jobs = os.listdir('../shakemaps/OQ-engine_jobs_run')
 events = pd.read_excel('../testing_scenarios.xlsx',header=1,engine='openpyxl')
 event_ids = events.Scenario_ID
 
-#print(event_ids)
         
 for job in jobs:
   if 'job' in job:
