@@ -24,13 +24,13 @@ conv = 1.16
 fig,ax = plt.subplots(figsize=(6,4)) 
 plt.loglog(eco_loss_comp['EM-DAT']*conv,eco_loss_comp['eco-loss_mean-rupture'],'o',color='grey')
 
-# fit power curve to model
+# linear fit to model
 x = eco_loss_comp['EM-DAT']*conv
 y = eco_loss_comp['eco-loss_mean-rupture']
-def f(x, a, b):
-    return np.log(a*x**b)
-popt,pcov=curve_fit(f, x, np.log(y), [1.e-6, 0.9])
-power_y = popt[0]*x**popt[1]
+def f(x, a):
+    return a*x
+popt,pcov=curve_fit(f, x, y)
+power_y = popt[0]*x
 plt.loglog(x, power_y, color='k',linewidth = 0.7)
 
 for i in range(0,len(eco_loss_comp['EM-DAT'])):
@@ -47,13 +47,13 @@ plt.savefig('../plots/Observed_vs_model_scenario_eco-loss_curve_rupture.png', dp
 fig,ax = plt.subplots(figsize=(6,4)) 
 plt.loglog(eco_loss_comp['EM-DAT']*conv,eco_loss_comp['eco-loss_mean-shakemap'],'o',color='grey')
 
-# fit power curve to model
+# linear fit to model
 x = eco_loss_comp['EM-DAT']*conv
 y = eco_loss_comp['eco-loss_mean-shakemap']
-def f(x, a, b):
-    return np.log(a*x**b)
-popt,pcov=curve_fit(f, x, np.log(y), [1.e-6, 0.9])
-power_y = popt[0]*x**popt[1]
+def f(x, a):
+    return a*x
+popt,pcov=curve_fit(f, x, y)
+power_y = popt[0]*x
 plt.loglog(x, power_y,color='k',linewidth = 0.7)
 
 for i in range(0,len(eco_loss_comp['EM-DAT'])):
@@ -70,13 +70,13 @@ plt.savefig('../plots/Observed_vs_model_scenario_eco-loss_curve_shakemap.png', d
 fig,ax = plt.subplots(figsize=(6,4)) 
 plt.loglog(fatalities_comp['EM-DAT']*conv,fatalities_comp['fatality_mean-rupture'],'o',color='grey')
 
-# fit power curve to model
+# linear fit to model
 x = fatalities_comp['EM-DAT']*conv
 y = fatalities_comp['fatality_mean-rupture']
-def f(x, a, b):
-    return np.log(a*x**b)
-popt,pcov=curve_fit(f, x, np.log(y), [1.e-6, 0.9])
-power_y = popt[0]*x**popt[1]
+def f(x, a):
+    return a*x
+popt,pcov=curve_fit(f, x, y)
+power_y = popt[0]*x
 plt.loglog(x, power_y,color='k',linewidth = 0.7)
 
 for i in range(0,len(fatalities_comp['EM-DAT'])):
@@ -93,13 +93,13 @@ plt.savefig('../plots/Observed_vs_model_scenario_fatalities_curve_rupture.png', 
 fig,ax = plt.subplots(figsize=(6,4)) 
 plt.loglog(fatalities_comp['EM-DAT']*conv,fatalities_comp['fatality_mean-shakemap'],'o',color='grey')
 
-# fit power curve to model
+# linear fit to model
 x = fatalities_comp['EM-DAT']*conv
 y = fatalities_comp['fatality_mean-shakemap']
-def f(x, a, b):
-    return np.log(a*x**b)
-popt,pcov=curve_fit(f, x, np.log(y), [1.e-6, 0.9])
-power_y = popt[0]*x**popt[1]
+def f(x, a):
+    return a*x
+popt,pcov=curve_fit(f, x, y)
+power_y = popt[0]*x
 plt.loglog(x, power_y,color='k',linewidth = 0.7)
 
 for i in range(0,len(fatalities_comp['EM-DAT'])):
