@@ -19,13 +19,14 @@ fatalities_comp = pd.read_csv('../plots/scenario_vs_emdat_fatalities.csv')
 
 conv = 1.16
 
+
 # rupture plot eco loss
 
 fig,ax = plt.subplots(figsize=(6,4)) 
 plt.loglog(eco_loss_comp['EM-DAT']*conv,eco_loss_comp['eco-loss_mean-rupture'],'o',color='grey')
 
 # linear fit to model
-x = eco_loss_comp['EM-DAT']*conv
+x = eco_loss_comp['EM-DAT']*conv*eco_loss_comp['CPI']/100
 y = eco_loss_comp['eco-loss_mean-rupture']
 def f(x, a):
     return a*x
@@ -48,7 +49,7 @@ fig,ax = plt.subplots(figsize=(6,4))
 plt.loglog(eco_loss_comp['EM-DAT']*conv,eco_loss_comp['eco-loss_mean-shakemap'],'o',color='grey')
 
 # linear fit to model
-x = eco_loss_comp['EM-DAT']*conv
+x = eco_loss_comp['EM-DAT']*conv*eco_loss_comp['CPI']/100
 y = eco_loss_comp['eco-loss_mean-shakemap']
 def f(x, a):
     return a*x
