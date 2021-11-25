@@ -6,6 +6,6 @@ In order to run the scenarios in this repository you will need to download the '
 
 The 'testing_scenarios.xlsx' file summarises these events, and includes the assumptions used in the rupture sources models as well as openly available damage and loss data that can be compared with the results of the scenario calculations. 
 
-
+If you have any questions or feedback on the data included in this repository, please send it via email to 'efehr.risk@sed.ethz.ch'.
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5728008.svg)](https://doi.org/10.5281/zenodo.5728008)
