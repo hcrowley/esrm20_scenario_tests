@@ -8,4 +8,4 @@ The 'testing_scenarios.xlsx' file summarises these events, and includes the assu
 
 
 
-[![DOI](https://zenodo.org/badge/424181130.svg)](https://zenodo.org/badge/latestdoi/424181130)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5728008.svg)](https://doi.org/10.5281/zenodo.5728008)
