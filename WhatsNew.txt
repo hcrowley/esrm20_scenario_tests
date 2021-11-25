@@ -1,0 +1,8 @@
+What's New
+
+Below you may find an overview of the data and improvements for each release of the European Building Vulnerability Database.
+
+2021-11-25: Earthquake Loss Scenario Data Repository v0.9 released
+
+A set of OpenQuake-engine input files required to run past earthquake scenarios for the testing of risk models.
+These scenarios can be run using either earthquake rupture models or ShakeMaps.
