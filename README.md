@@ -1,4 +1,4 @@
-# Earthquake Loss Scenario Data Repository
+# Earthquake Scenario Loss Testing Repository
 
 This repository provides a set of OpenQuake-engine input files required to run past earthquake scenarios for the testing of risk models. These scenarios can be run using either earthquake rupture models or ShakeMaps. 
 
