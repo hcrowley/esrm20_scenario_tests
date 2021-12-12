@@ -22,7 +22,7 @@ conv = 1.16
 
 # rupture plot eco loss
 
-fig,ax = plt.subplots(figsize=(6,4)) 
+fig,ax = plt.subplots(figsize=(6,6)) 
 plt.loglog(eco_loss_comp['EM-DAT']*conv,eco_loss_comp['eco-loss_mean-rupture'],'o',color='grey')
 
 # linear fit to model
@@ -45,7 +45,7 @@ plt.savefig('../plots/Observed_vs_model_scenario_eco-loss_curve_rupture.png', dp
 
 # shakemap plot eco loss
 
-fig,ax = plt.subplots(figsize=(6,4)) 
+fig,ax = plt.subplots(figsize=(6,6)) 
 plt.loglog(eco_loss_comp['EM-DAT']*conv,eco_loss_comp['eco-loss_mean-shakemap'],'o',color='grey')
 
 # linear fit to model
@@ -68,7 +68,7 @@ plt.savefig('../plots/Observed_vs_model_scenario_eco-loss_curve_shakemap.png', d
 
 # rupture plot fatalities
 
-fig,ax = plt.subplots(figsize=(6,4)) 
+fig,ax = plt.subplots(figsize=(6,6)) 
 plt.loglog(fatalities_comp['EM-DAT']*conv,fatalities_comp['fatality_mean-rupture'],'o',color='grey')
 
 # linear fit to model
@@ -91,7 +91,7 @@ plt.savefig('../plots/Observed_vs_model_scenario_fatalities_curve_rupture.png', 
 
 # shakemap plot fatalities
 
-fig,ax = plt.subplots(figsize=(6,4)) 
+fig,ax = plt.subplots(figsize=(6,6)) 
 plt.loglog(fatalities_comp['EM-DAT']*conv,fatalities_comp['fatality_mean-shakemap'],'o',color='grey')
 
 # linear fit to model
