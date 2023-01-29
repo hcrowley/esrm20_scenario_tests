@@ -33,7 +33,7 @@ send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
 If you make use of the data in this repository in any way, please cite as follows:
 
 H. Crowley, J. Dabbeek, L. Danciu, P. Kalakonas, E. Riga, V. Silva, E. Veliu, G. Weatherill (2021). 
-Earthquake Scenario Loss Testing Repository (Version 1.0) [Data set] https://doi.org/10.5281/zenodo.5728008
+Earthquake Scenario Loss Testing Repository (Version 1.1) [Data set] https://doi.org/10.5281/zenodo.5728008
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.5728008.svg)](https://doi.org/10.5281/zenodo.5728008)
 

@@ -2,6 +2,10 @@ What's New
 
 Below you may find an overview of the data and improvements for each release of the Earthquake Scenario Loss Testing Repository.
 
+2023-01-29: Earthquake Scenario Loss Testing Repository v1.1 released
+
+A complete reorganisation of the repository, with a new structure as described in the readme. Modifications to job files to account for use of 30 arc second exposure models, and changes to relative paths inside all job files. 
+
 2021-12-09: Earthquake Scenario Loss Testing Repository v1.0 released
 
 Fragility models (in OQ input format) added for users that wish to test these models. Note that the job files need to be modified 
