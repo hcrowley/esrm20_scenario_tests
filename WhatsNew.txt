@@ -2,15 +2,28 @@ What's New
 
 Below you may find an overview of the data and improvements for each release of the Earthquake Scenario Loss Testing Repository.
 
-2023-01-29: Earthquake Scenario Loss Testing Repository v1.1 released
+2023-01-29: European Earthquake Scenario Loss Repository v1.1 released
 
-A complete reorganisation of the repository, with a new structure as described in the Readme. Modifications to job files to account for use of 30 arc second exposure/vs30 models, and changes to relative paths inside all job files. 
+A complete reorganisation of the repository (including change of name), with a new structure as described in the Readme. 
+Modifications to job files to account for use of 30 arc second exposure/vs30 models, and changes to relative paths inside all job files. 
+Updates to plots, including the PAGER alert colours (see e.g. Wald et al. 2022, 12NCEE).
+
+Please cite this version as:
+
+H. Crowley, J. Dabbeek, L. Danciu, P. Kalakonas, E. Riga, V. Silva, E. Veliu, G. Weatherill (2023). 
+Earthquake Scenario Loss Testing Repository (Version 1.1) [Data set] https://doi.org/10.5281/zenodo.5728008
+
 
 2021-12-09: Earthquake Scenario Loss Testing Repository v1.0 released
 
 Fragility models (in OQ input format) added for users that wish to test these models. Note that the job files need to be modified 
 by users to run scenarios with these input files.
 Minor bug fixes.
+
+Please cite this version as:
+
+H. Crowley, J. Dabbeek, L. Danciu, P. Kalakonas, E. Riga, V. Silva, E. Veliu, G. Weatherill (2021). 
+Earthquake Scenario Loss Testing Repository (Version 1.0) [Data set] https://doi.org/10.5281/zenodo.5728008
 
 
 2021-11-25: Earthquake Scenario Loss Testing Repository v0.9 released
