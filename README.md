@@ -10,9 +10,9 @@ This repository is organised into two main directories:
 - `models`: this includes the [OpenQuake-engine](https://github.com/gem/oq-engine) scenario input models. Inside the `selected_damaging_events` folder you will find a `summary_selected_damaging_events.xlsx` file which summarises the main characteristics of these events, and includes the assumptions used in the rupture sources models.  
 
 If you would like to run the scenario calculations yourself, you will need to add organise the folder `esrm20` (inside the `models` folder) as follows:
-- `Exposure_30arcsec`: Directory into which you should copy all the exposure files from the [esrm20 Exposure_30arcsec repository](https://gitlab.seismo.ethz.ch/efehr/esrm20/Exposure_30arcsec).
-- `Vulnerability`: Directory into which you should copy all of the files from the [esrm20 Vulnerability repository](https://gitlab.seismo.ethz.ch/efehr/esrm20/Vulnerability).
-- `Vs30`: Directory into which you should copy all of the files from the [esrm20 Vs30 repository](https://gitlab.seismo.ethz.ch/efehr/esrm20/Vs30).
+- `Exposure_30arcsec`: Directory into which you should copy all the exposure files from the [esrm20 Exposure_30arcsec repository](https://gitlab.seismo.ethz.ch/efehr/esrm20/-/tree/main/Exposure_30arcsec).
+- `Vulnerability`: Directory into which you should copy all of the files from the [esrm20 Vulnerability repository](https://gitlab.seismo.ethz.ch/efehr/esrm20/-/tree/main/Vulnerability).
+- `Vs30`: Directory into which you should copy all of the files from the [esrm20 Vs30 repository](https://gitlab.seismo.ethz.ch/efehr/esrm20/-/tree/main/Vs30).
 - `GMPE`: this folder is already provided with this repository and includes the ground motion models for different tectonic environments.
 
 ## Acknowledgements
