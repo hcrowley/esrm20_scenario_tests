@@ -12,7 +12,7 @@ This repository is organised into two main directories:
 If you would like to run the scenario calculations yourself, you will need to add organise the folder `esrm20` (inside the `models` folder) as follows:
 - `Exposure_30arcsec`: Directory into which you should copy all the exposure files from the [esrm20 Exposure_30arcsec repository](https://gitlab.seismo.ethz.ch/efehr/esrm20/-/tree/main/Exposure_30arcsec).
 - `Vulnerability`: Directory into which you should copy all of the files from the [esrm20 Vulnerability repository](https://gitlab.seismo.ethz.ch/efehr/esrm20/-/tree/main/Vulnerability).
-- `Vs30`: Directory into which you should copy all of the files from the [esrm20 Vs30 repository](https://gitlab.seismo.ethz.ch/efehr/esrm20/-/tree/main/Vs30).
+- `Vs30_30arcsec`: Directory into which you should copy all of the files from the [esrm20 Vs30_30arcsec repository](https://gitlab.seismo.ethz.ch/efehr/esrm20/-/tree/main/Vs30_30arcsec).
 - `GMPE`: this folder is already provided with this repository and includes the ground motion models for different tectonic environments.
 
 ## Acknowledgements
