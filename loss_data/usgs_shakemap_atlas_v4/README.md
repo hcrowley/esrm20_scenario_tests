@@ -1,6 +1,6 @@
 # Loss Data: USGS ShakeMap Atlas
 
-The file `losses_usgs_shakemap_atlas-v4_2000-2020.xlsx` includes modelled losses (using [ESRM20 exposure and vulnerability models](https://gitlab.seismo.ethz.ch/efehr/esrm20): Crowley et al., 2021) for over 300 events that have occurred in Europe between 2000 and 2020. The ShakeMaps for events have been extracted from the [USGS ShakeMap Atlas v4](https://earthquake.usgs.gov/data/shakemap/atlas): the details of these events can be found in `models/usgs_shakemap_atlas_v4` directory. 
+The file `losses_usgs_shakemap_atlas-v4_2000-2022.xlsx` includes modelled losses (using [ESRM20 exposure and vulnerability models](https://gitlab.seismo.ethz.ch/efehr/esrm20): Crowley et al., 2021) for 347 events that have occurred in Europe between 2000 and 2022. The ShakeMaps for events have been extracted from the [USGS ShakeMap Atlas v4](https://earthquake.usgs.gov/data/shakemap/atlas): the details of these events can be found in `models/usgs_shakemap_atlas_v4` directory. 
 
 
 ## References
