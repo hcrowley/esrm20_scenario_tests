@@ -1,6 +1,6 @@
 # Loss Data: Selected Damaging Events
 
-The file `losses_selected_damaging_events.xlsx' includes both reported (from NCEI/WDS Global Significant Earthquake Database and EMDAT) and modelled losses (using ESRM20 exposure and vulnerability modelss : Crowley et al., 2021) for a number of damaging earthquake events that have occurred in Europe since 1980. The details of these events can be found in `models/selected_damaging_events` directory. 
+The file `losses_selected_damaging_events.xlsx` includes both reported (from NCEI/WDS Global Significant Earthquake Database and EMDAT) and modelled losses (using ESRM20 exposure and vulnerability modelss : Crowley et al., 2021) for a number of damaging earthquake events that have occurred in Europe since 1980. The details of these events can be found in `models/selected_damaging_events` directory. 
 
 Some plots comparing the reported and mean predicted losses are also provided. These plots also show the [USGS PAGER](https://earthquake.usgs.gov/data/pager/) alert levels (see Wald et al., 2022).   
 
