@@ -4,13 +4,6 @@ The file `losses_selected_damaging_events.xlsx` includes both reported (from NCE
 
 Some plots comparing the reported and mean predicted losses are also provided. These plots also show the [USGS PAGER](https://earthquake.usgs.gov/data/pager/) alert levels (see Wald et al., 2022).   
 
-## Comparison plots: NCEI/WDS Global Significant Earthquake Database
-
-<img src="./noaa_vs_model_eco-loss_rupture.png" alt="noaa_rupture_ecoloss" width="400" >
-<img src="./noaa_vs_model_eco-loss_ShakeMap.png" alt="noaa_ShakeMap_ecoloss" width="400" >
-<img src="./noaa_vs_model_fatality_rupture.png" alt="noaa_rupture_fatality" width="400" >
-<img src="./noaa_vs_model_fatality_ShakeMap.png" alt="noaa_ShakeMap_fatality" width="400" >
-
 ## Comparison plots: EMDAT
 
 <img src="./EMDAT_vs_model_eco-loss_rupture.png" alt="EMDAT_rupture_ecoloss" width="400" >
