@@ -7,7 +7,7 @@ A plots comparing the reported and median predicted losses is also provided. Thi
 
 ## Comparison plot: EMDAT fatalities
 
-<img src="./EMDAT_vs_model_fatality_ShakeMap_EU2020-2022.png" alt="EMDAT_shakemapEU_fatality" width="400" 
+<img src="./EMDAT_vs_model_fatality_ShakeMap_EU2020-2022.png" alt="EMDAT_shakemapEU_fatality" width="400"> 
 
 
 ## References
